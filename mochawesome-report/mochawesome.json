@@ -1,0 +1,219 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 0,
+    "pending": 0,
+    "failures": 6,
+    "start": "2022-04-11T15:02:08.359Z",
+    "end": "2022-04-11T15:02:08.368Z",
+    "duration": 9,
+    "testsRegistered": 6,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "24d64d1b-097b-4ea4-9a3f-40c2d94ace12",
+      "title": "",
+      "fullFile": "/Users/romainsimoes/EIGSI/javascript/specs/bowling-calculator.js",
+      "file": "/specs/bowling-calculator.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b5dfe8a6-ac17-4419-a545-af23bbe217df",
+          "title": "Bowling Score",
+          "fullFile": "/Users/romainsimoes/EIGSI/javascript/specs/bowling-calculator.js",
+          "file": "/specs/bowling-calculator.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should be 0 for rolls 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+              "fullTitle": "Bowling Score should be 0 for rolls 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+              "timedOut": false,
+              "duration": 2,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const computedScore = bowlingScore(scenario.rolls);\nexpect(computedScore).to.eq(scenario.score);",
+              "err": {
+                "message": "AssertionError: expected undefined to equal +0",
+                "estack": "AssertionError: expected undefined to equal +0\n    at Context.<anonymous> (specs/bowling-calculator.js:35:32)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": null
+              },
+              "uuid": "e082fd3a-9a39-495d-a09b-acfc55cf161e",
+              "parentUUID": "b5dfe8a6-ac17-4419-a545-af23bbe217df",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should be 190 for rolls 9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9",
+              "fullTitle": "Bowling Score should be 190 for rolls 9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9",
+              "timedOut": false,
+              "duration": 1,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const computedScore = bowlingScore(scenario.rolls);\nexpect(computedScore).to.eq(scenario.score);",
+              "err": {
+                "message": "AssertionError: expected undefined to equal 190",
+                "estack": "AssertionError: expected undefined to equal 190\n    at Context.<anonymous> (specs/bowling-calculator.js:35:32)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": null
+              },
+              "uuid": "d60930f4-16d2-464a-a183-4f1ba23cd478",
+              "parentUUID": "b5dfe8a6-ac17-4419-a545-af23bbe217df",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should be 300 for rolls 10,10,10,10,10,10,10,10,10,10,10,10",
+              "fullTitle": "Bowling Score should be 300 for rolls 10,10,10,10,10,10,10,10,10,10,10,10",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const computedScore = bowlingScore(scenario.rolls);\nexpect(computedScore).to.eq(scenario.score);",
+              "err": {
+                "message": "AssertionError: expected undefined to equal 300",
+                "estack": "AssertionError: expected undefined to equal 300\n    at Context.<anonymous> (specs/bowling-calculator.js:35:32)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": null
+              },
+              "uuid": "e7702cae-fff2-40b6-8760-4985ca86cf88",
+              "parentUUID": "b5dfe8a6-ac17-4419-a545-af23bbe217df",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should be 11 for rolls 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,1,0",
+              "fullTitle": "Bowling Score should be 11 for rolls 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,1,0",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const computedScore = bowlingScore(scenario.rolls);\nexpect(computedScore).to.eq(scenario.score);",
+              "err": {
+                "message": "AssertionError: expected undefined to equal 11",
+                "estack": "AssertionError: expected undefined to equal 11\n    at Context.<anonymous> (specs/bowling-calculator.js:35:32)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": null
+              },
+              "uuid": "141c84b8-b7e8-40c6-b2b9-d39f1775dc1a",
+              "parentUUID": "b5dfe8a6-ac17-4419-a545-af23bbe217df",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should be 12 for rolls 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,1,0",
+              "fullTitle": "Bowling Score should be 12 for rolls 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,1,0",
+              "timedOut": false,
+              "duration": 1,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const computedScore = bowlingScore(scenario.rolls);\nexpect(computedScore).to.eq(scenario.score);",
+              "err": {
+                "message": "AssertionError: expected undefined to equal 12",
+                "estack": "AssertionError: expected undefined to equal 12\n    at Context.<anonymous> (specs/bowling-calculator.js:35:32)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": null
+              },
+              "uuid": "75c34d7f-63b5-433b-b081-db707271b54d",
+              "parentUUID": "b5dfe8a6-ac17-4419-a545-af23bbe217df",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should be 179 for rolls 1,4,2,8,6,4,7,3,10,10,10,9,1,4,5,6,4,9",
+              "fullTitle": "Bowling Score should be 179 for rolls 1,4,2,8,6,4,7,3,10,10,10,9,1,4,5,6,4,9",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const computedScore = bowlingScore(scenario.rolls);\nexpect(computedScore).to.eq(scenario.score);",
+              "err": {
+                "message": "AssertionError: expected undefined to equal 179",
+                "estack": "AssertionError: expected undefined to equal 179\n    at Context.<anonymous> (specs/bowling-calculator.js:35:32)\n    at processImmediate (node:internal/timers:464:21)",
+                "diff": null
+              },
+              "uuid": "02a485ba-080d-4aac-899b-5b46f13d9adc",
+              "parentUUID": "b5dfe8a6-ac17-4419-a545-af23bbe217df",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "e082fd3a-9a39-495d-a09b-acfc55cf161e",
+            "d60930f4-16d2-464a-a183-4f1ba23cd478",
+            "e7702cae-fff2-40b6-8760-4985ca86cf88",
+            "141c84b8-b7e8-40c6-b2b9-d39f1775dc1a",
+            "75c34d7f-63b5-433b-b081-db707271b54d",
+            "02a485ba-080d-4aac-899b-5b46f13d9adc"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 4,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "9.2.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
